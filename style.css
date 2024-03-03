@@ -1,0 +1,77 @@
+.background{
+    background-image: url(background.jpg);
+    background-size: auto;
+    background-position-y: -50px;
+    background-position-x: center;
+    height: 90vh;
+}
+.nav-link{
+    color: red;
+    font-size: large;
+}
+.name1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 60px;
+    font-style: normal;
+    color: rgba(7, 7, 148, 0.86);
+    padding-top: 90px;
+}
+h3{
+    font-family: "Roboto Serif", serif;
+    font-weight: 40px;
+    font-size: 100px;
+    padding-top: 10px;
+}
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+@media (max-width: 800px) {
+    .back-to-top {
+      position: fixed;
+      right: 20px;
+      bottom: 100px;
+    }
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    font-family: "Dancing Script", cursive;
+    font-size: 69px;
+    padding-top: 20px;
+    color: rgba(45, 45, 223, 0.902);
+}
+.intro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Hire{
+    font-size: 50px;
+}
+.lead{
+    color:#094ab3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.footer {
+    background-image: url(artwork-simple-3d-hot-air-balloons-clouds-hd-wallpaper-preview.jpg);
+}
+.social {
+    padding-right: 100px;
+  }
+  
+  .cr {
+    padding-left: 100px;
+  }
+  
