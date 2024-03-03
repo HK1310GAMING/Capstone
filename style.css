@@ -5,10 +5,11 @@
     background-position-x: center;
     height: 90vh;
 }
-.nav-link{
-    color: red;
+header ul .nav-link{
+    color: white;
     font-size: large;
 }
+
 .name1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -74,4 +75,7 @@ h3{
   .cr {
     padding-left: 100px;
   }
-  
+.nav-link:hover,.nav-link:active{
+    font-size: 20px;
+    font-weight: 300px;
+}
